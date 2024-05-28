@@ -6,7 +6,7 @@ permissions:
   contents: write
 name: Deploy Webpage
 jobs:
-  deploy:
+  web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
