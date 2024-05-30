@@ -14,6 +14,20 @@
   --qwik-dirty-black: #1d2033;
   --qwik-dark-background: #151934;
   --qwik-dark-text: #ffffff;
+  background: hsla(176, 45%, 66%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(176, 45%, 66%, 1) 0%,
+    hsla(202, 71%, 27%, 1) 100%
+  );
+
+  overflow: hidden;
+
+  -webkit-transition: background 1s ease-out;
+  -moz-transition: background 1s ease-out;
+  -o-transition: background 1s ease-out;
+  transition: background 1s ease-out;
 }
 
 html {
@@ -37,9 +51,8 @@ html {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
-  background-attachment: scroll;
-  background: 133262;
-  overflow: hidden;
+
+  width: 100%;
   height: 100%;
 }
 
@@ -49,4 +62,16 @@ body {
   line-height: inherit;
   overflow: auto;
   height: 100%;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

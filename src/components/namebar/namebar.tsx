@@ -11,22 +11,18 @@ export default component$(() => {
         </div>
 
         <div class={styles.buttons}>
-          <div class={styles.row}>
-            <div class={styles.navbutton} id={styles.experience}>
-              <a href="/experience">Experience</a>
-            </div>
-            <div class={styles.navbutton} id={styles.awards}>
-              <a href="/awards">Awards & Certifications</a>
-            </div>
-          </div>
-          <div class={styles.row}>
-            <div class={styles.navbutton} id={styles.projects}>
-              <a href="/projects">Projects</a>
-            </div>
-            <div class={styles.navbutton} id={styles.contact}>
-              <a href="/contact">Contact Me</a>
-            </div>
-          </div>
+          <a href="/experience" id={styles.experience}>
+            <b>Experience</b>
+          </a>
+          <a href="/projects" id={styles.projects}>
+            <b>Projects</b>
+          </a>
+          <a href="/awards" id={styles.awards}>
+            <b>Awards</b>
+          </a>
+          <a href="/contact" id={styles.contact}>
+            <b>Contact Me</b>
+          </a>
         </div>
       </div>
     </>
