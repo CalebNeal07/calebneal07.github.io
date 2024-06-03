@@ -7,22 +7,15 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
-  background: hsla(176, 45%, 66%, 1);
+  --primary-gradient-1: #a86bbb;
+  --primary-gradient-2: #6f77c8;
+  --primary-gradient-3: #117fc4;
+  --primary-gradient-4: #0081b0;
+  --primary-gradient-5: #008093;
 
-  background: linear-gradient(
-    270deg,
-    hsla(176, 45%, 66%, 1) 0%,
-    hsla(202, 71%, 27%, 1) 100%
-  );
-
-  overflow: hidden;
+  background: linear-gradient(135deg, hsl(230, 40%, 12%), hsl(230, 20%, 7%));
+  scroll-behavior: auto;
+  overscroll-behavior: none;
 
   -webkit-transition: background 1s ease-out;
   -moz-transition: background 1s ease-out;
@@ -54,17 +47,25 @@ html {
 
   width: 100%;
   height: 100%;
+  background-color: linear-gradient(
+    135deg,
+    hsl(230, 40%, 12%),
+    hsl(230, 20%, 7%)
+  );
 }
 
 body {
   padding: 0;
   margin: 0;
   line-height: inherit;
-  overflow: auto;
-  height: 100%;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  background-color: linear-gradient(
+    135deg,
+    hsl(230, 40%, 12%),
+    hsl(230, 20%, 7%)
+  );
 }
 
 @keyframes fadeInAnimation {

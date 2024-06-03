@@ -7,20 +7,20 @@ export default component$(() => {
       <div class={styles.container}>
         <div class={styles.headers}>
           <h1>Caleb O'Neal</h1>
-          <h3>Programmer and Electrical Engineer</h3>
+          <h3>--------</h3>
         </div>
 
         <div class={styles.buttons}>
-          <a href="/experience" id={styles.experience}>
+          <a class={styles.navlink} href="/experience" id={styles.experience}>
             <b>Experience</b>
           </a>
-          <a href="/projects" id={styles.projects}>
+          <a class={styles.navlink} href="/projects" id={styles.projects}>
             <b>Projects</b>
           </a>
-          <a href="/awards" id={styles.awards}>
+          <a class={styles.navlink} href="/awards" id={styles.awards}>
             <b>Awards</b>
           </a>
-          <a href="/contact" id={styles.contact}>
+          <a class={styles.navlink} href="/contact" id={styles.contact}>
             <b>Contact Me</b>
           </a>
         </div>
