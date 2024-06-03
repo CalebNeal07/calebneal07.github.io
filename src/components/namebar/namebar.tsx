@@ -7,26 +7,22 @@ export default component$(() => {
       <div class={styles.container}>
         <div class={styles.headers}>
           <h1>Caleb O'Neal</h1>
-          <h3>Programmer and Electrical Engineer</h3>
+          <h3>--------</h3>
         </div>
 
         <div class={styles.buttons}>
-          <div class={styles.row}>
-            <div class={styles.navbutton} id={styles.experience}>
-              <a href="/experience">Experience</a>
-            </div>
-            <div class={styles.navbutton} id={styles.awards}>
-              <a href="/awards">Awards & Certifications</a>
-            </div>
-          </div>
-          <div class={styles.row}>
-            <div class={styles.navbutton} id={styles.projects}>
-              <a href="/projects">Projects</a>
-            </div>
-            <div class={styles.navbutton} id={styles.contact}>
-              <a href="/contact">Contact Me</a>
-            </div>
-          </div>
+          <a class={styles.navlink} href="/experience" id={styles.experience}>
+            <b>Experience</b>
+          </a>
+          <a class={styles.navlink} href="/projects" id={styles.projects}>
+            <b>Projects</b>
+          </a>
+          <a class={styles.navlink} href="/awards" id={styles.awards}>
+            <b>Awards</b>
+          </a>
+          <a class={styles.navlink} href="/contact" id={styles.contact}>
+            <b>Contact Me</b>
+          </a>
         </div>
       </div>
     </>
