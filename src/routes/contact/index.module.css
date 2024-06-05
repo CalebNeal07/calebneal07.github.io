@@ -1,0 +1,20 @@
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 2px;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#github {
+  font-size: 80px;
+  text-decoration: none;
+  color: white;
+}
+
+#email {
+  font-size: 80px;
+  text-decoration: none;
+  color: white;
+}

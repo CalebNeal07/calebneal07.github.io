@@ -7,7 +7,8 @@ export default component$(() => {
   const isContactsPage = useLocation().url.pathname === "/contact/";
   const isAwardsPage = useLocation().url.pathname === "/awards/";
   const isProjectsPage = useLocation().url.pathname === "/projects/";
-  const isExperiencePage = useLocation().url.pathname === "/experience/"
+  const isExperiencePage = useLocation().url.pathname === "/experience/";
+  const isEducationPage = useLocation().url.pathname === "/education/";
 
   return (
     <div id={styles.page}>
@@ -15,28 +16,53 @@ export default component$(() => {
         <header>
           <ul>
             <li>
-              <a class={isHomePage && styles.active} id={styles.home} href="/">
+              <a id={styles.home} href="/">
                 Caleb O'Neal
               </a>
             </li>
             <li style="float:right">
-              <a class={isContactsPage && styles.active} id={styles.pages} href="/contact">
+              <a
+                class={isContactsPage && styles.active}
+                id={styles.pages}
+                href="/contact"
+              >
                 Contact Me
               </a>
             </li>
             <li style="float:right">
-              <a class={isAwardsPage && styles.active} id={styles.pages} href="/awards">
+              <a
+                class={isAwardsPage && styles.active}
+                id={styles.pages}
+                href="/awards"
+              >
                 Awards
               </a>
             </li>
             <li style="float:right">
-              <a class={isProjectsPage && styles.active} id={styles.pages} href="/projects">
+              <a
+                class={isProjectsPage && styles.active}
+                id={styles.pages}
+                href="/projects"
+              >
                 Projects
               </a>
             </li>
             <li style="float:right">
-              <a class={isExperiencePage && styles.active} id={styles.pages} href="/experience">
+              <a
+                class={isExperiencePage && styles.active}
+                id={styles.pages}
+                href="/experience"
+              >
                 Experience
+              </a>
+            </li>
+            <li style="float:right">
+              <a
+                class={isEducationPage && styles.active}
+                id={styles.pages}
+                href="/education"
+              >
+                Education
               </a>
             </li>
           </ul>

@@ -23,6 +23,7 @@ legend {
   text-align: center;
   padding: 10px;
   font-size: 25px;
+  color: hsl;
 }
 
 img {
@@ -34,6 +35,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
+  font-size: 25px;
+  color: hsl(210, 100%, 75%);
 }
 
 .project:hover .overlay {

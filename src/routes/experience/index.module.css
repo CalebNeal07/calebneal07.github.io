@@ -1,0 +1,15 @@
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 50px;
+  align-content: center;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  font-weight: 15;
+  padding: 70px;
+}
