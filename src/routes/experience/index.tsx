@@ -8,6 +8,19 @@ export default component$(() => {
     <>
       <Pageheader name="Experience"></Pageheader>
       <div class={styles.center}>
+        <h2>About Me</h2>
+        <p>
+          I'm a high school student enrolled in the Arlington Tech program at
+          Arlington Career Center. The program also allows students to pursue an
+          Associate's degree while in high school. A fact that I'm taking
+          advantage of to get a degree in computer science. I've always been
+          interested in programming and recently my interest has began to focus
+          on lower level programming and firmware developemnt. Bellow are some
+          of the things I've done related to my interests. I also have a number
+          of personal projects displayed on this website.
+        </p>
+      </div>
+      <div class={styles.center}>
         <h2>
           <b>Robotics Team</b> | Team Cocaptain | September 2022 - Present
         </h2>
