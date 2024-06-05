@@ -1,0 +1,13 @@
+.award {
+  width: 50%;
+  margin: auto;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 50px;
+  align-content: center;
+  text-align: center;
+}
